@@ -59,7 +59,7 @@ const About = () => {
                 <div className="content">
                   <span>Make A Call</span>
                   <br />
-                  <a href="callto:+03257847141">+03257847141</a>
+                  <a href="callto:++923257847141">++923257847141</a>
                 </div>
               </div>
             </div>

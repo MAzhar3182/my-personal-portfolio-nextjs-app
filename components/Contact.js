@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import { toast } from 'react-toastify';
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -27,12 +28,20 @@ const Contact = () => {
       });
 
       if (res.ok) {
-        setStatus('Message sent successfully!');
+        toast.success('Message sent successfully!');
+         // Reset form after success
+         setFormData({
+          name: "",
+          email: "",
+          phone_number: "",
+          subject: "",
+          message: "",
+        });
       } else {
+        toast.error('Failed to send message. Try again.');
         setStatus('Failed to send message. Try again.');
       }
     } catch (error) {
-      console.error('Error:', error);
       setStatus('An error occurred. Please try again later.');
     }
   };
