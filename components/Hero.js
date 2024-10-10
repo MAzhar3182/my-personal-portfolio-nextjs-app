@@ -24,7 +24,7 @@ const Hero = () => {
                 experiences.
               </p>
               <div className="hero-btns">
-                <Link legacyBehavior href="/contact">
+                <Link legacyBehavior href="#contact">
                   <a className="theme-btn">
                     Hire Me <i className="far fa-angle-right" />
                   </a>
