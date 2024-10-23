@@ -10,8 +10,11 @@ import Services from "@/components/Services";
 import Skill from "@/components/Skill";
 import Testimonial from "@/components/Testimonial";
 import NoxfolioLayout from "@/layout/NoxfolioLayout";
+import Service from "@/components/Service";
+import DigitalMarketing from "@/components/DigitalMarketing";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import '@fortawesome/fontawesome-free/css/all.min.css'; 
 export default function Home() {
   return (
     <>
@@ -20,22 +23,23 @@ export default function Home() {
       <Hero />
       {/* Hero Section End */}
       {/* About Area start */}
-      <About />
+      <Service />
       {/* About Area end */}
       {/* Resume Area start */}
-      <Resume />
+      <DigitalMarketing/>
       {/* Resume Area end */}
       {/* Services Area start */}
-      <Services />
-      {/* Services Area end */}
+      {/* <Services />
+      Services Area end */}
       {/* Skill Area start */}
-      <Skill />
+      {/* <Skill /> */}
       {/* Skill Area end */}
       {/* Projects Area start */}
-      {/* <Projects /> */}
+      <Projects />
       {/* Projects Area end */}
       {/* Testimonial Area start */}
-      {/* <Testimonial /> */}
+      <Testimonial />
+      <About />
       {/* Testimonial Area end */}
       {/* Pricing Area start */}
       {/* <Pricing /> */}

@@ -50,27 +50,27 @@ const Contact = () => {
     <section id="contact" className="contact-area pt-95 pb-130 rpt-70 rpb-100 rel z-1">
       <div className="container">
         <div className="row">
-          <div className="col-lg-4">
-            <div className="contact-content-part pt-5 rpt-0 rmb-55 wow fadeInUp delay-0-2s">
-              <div className="section-title mb-40">
-                <span className="sub-title mb-15">Get In Touch</span>
-                <h2>Let’s Talk About <span>Your Next Project</span></h2>
-                <p>
-                  I am Muhammad Azhar, an Associate Software Engineer with over a year of professional experience...
-                </p>
-              </div>
-              <ul className="list-style-two">
-                <li>Over 1+ Year of Professional Experience</li>
-                <li>Specialized in React.js and TypeScript</li>
-                <li>Full Stack Development (MERN Stack)</li>
-                <li>UI/UX Design and Web Development</li>
-              </ul>
-            </div>
+        <div className="col-lg-4">
+  <div className="contact-content-part pt-5 rpt-0 rmb-55 wow fadeInUp delay-0-2s">
+    <div className="section-title mb-40">
+      <span className="sub-title mb-15">Get In Touch</span>
+      <h2>Let’s Discuss <span>Your Digital Growth</span></h2>
+      <p>
+        Ready to elevate your business and take your digital presence to new heights? Whether it's Social Media Management, Web Development, or SEO, we're here to craft a strategy that helps you succeed online. Our team of experts is dedicated to helping businesses like yours build a strong and impactful digital footprint. Reach out to us today and let's turn your vision into reality.
+      </p>
+    </div>
+    <ul className="list-style-two">
+      <li>Customized digital marketing strategies</li>
+      <li>Expert solutions in SEO, Social Media, and Web Development</li>
+      <li>Comprehensive support for growing your business</li>
+      <li>Client-focused approach for measurable results</li>
+    </ul>
+  </div>
           </div>
           <div className="col-lg-8">
             <div className="contact-form contact-form-wrap form-style-one wow fadeInUp delay-0-4s">
               <form onSubmit={handleSubmit}>
-                <div className="row">
+                <div className="row mar-contact-top">
                   <div className="col-md-6">
                     <div className="form-group">
                       <label htmlFor="name">Full Name</label>
@@ -195,10 +195,10 @@ export default Contact;
 //                 <div className="col-sm-8">
 //                   <h3>i,m avaiable at</h3>
 //                   <h5>
-//                     <i className="far fa-envelope" />muhammedazhar.csfl20@gmail.com
+//                     <i className="far fa-envelope" />ahmadmujtabanaeem@gmail.com
 //                   </h5>
 //                   <h5>
-//                     <i className="far fa-phone" />+923257847141
+//                     <i className="far fa-phone" />+44-7405380735
 //                   </h5>
 //                 </div>
 //                 <div className="col-sm-4">

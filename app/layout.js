@@ -29,11 +29,11 @@ const fontFamily = `${inter.variable} ${dm_sans.variable} `;
 
 export const metadata = {
   title: {
-    template: "Muhammad Azhar - Full Stack Developer || %s",
-    default: "Muhammad Azhar - Full Stack Developer || Home", // a default is required when creating a template
+    template: "Ahmad Mujtaba Naeem - Digital Marketing Specialist || %s",
+    default: "Ahmad Mujtaba Naeem - Digital Marketing Specialist || Home", // a default is required when creating a template
   },
   description:
-    "Muhammad Azhar's personal portfolio showcasing over a year of professional experience in full-stack web development using React.js, TypeScript, Node.js, and MongoDB. Explore projects, skills, and testimonials from satisfied clients.",
+    "Ahmad Mujtaba Naeem's portfolio highlighting expertise in Digital Marketing, Social Media Management, SEO, and Web Development. Ready to take your business to the next level? A strong online presence is key to growing your business and increasing revenue. Let us help you achieve that with our expert services.",
 };
 
 export default function RootLayout({ children }) {

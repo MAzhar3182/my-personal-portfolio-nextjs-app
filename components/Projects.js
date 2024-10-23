@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight, faAngleRight } from '@fortawesome/free-solid-svg-icons';
 
 const Projects = () => {
   return (
@@ -10,10 +12,13 @@ const Projects = () => {
         <div className="row justify-content-center">
           <div className="col-xl-12">
             <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
-              <span className="sub-title mb-15">Latest Works</span>
+              <span className="sub-title mb-15">Projects</span>
               <h2>
-                Explore My Popular <span>Projects</span>
+                Explore My <span>Digital Marketing</span> Works
               </h2>
+              <p>
+                Take a look at some of my most successful digital marketing projects, including social media management, SEO optimization, and web development that have driven growth and engagement for clients.
+              </p>
             </div>
           </div>
         </div>
@@ -25,19 +30,18 @@ const Projects = () => {
           </div>
           <div className="col-xl-5 col-lg-6">
             <div className="project-content wow fadeInRight delay-0-2s">
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Social Media Campaign</span>
               <h2>
                 <Link legacyBehavior href="project-details">
-                  Mobile Application Design
+                  Instagram Growth Strategy
                 </Link>
               </h2>
               <p>
-                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                inventore veritatis architecto beatae
+                Developed a tailored social media strategy that increased followers by 30% and engagement by 50% over three months for a retail client.
               </p>
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="#contact">
                 <a className="details-btn">
-                  <i className="far fa-arrow-right" />
+                  <FontAwesomeIcon icon={faArrowRight} />
                 </a>
               </Link>
             </div>
@@ -51,19 +55,18 @@ const Projects = () => {
           </div>
           <div className="col-xl-5 col-lg-6 ms-auto">
             <div className="project-content wow fadeInRight delay-0-2s">
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">SEO Optimization</span>
               <h2>
                 <Link legacyBehavior href="project-details">
-                  Website Makeup Design
+                  E-commerce Website SEO Boost
                 </Link>
               </h2>
               <p>
-                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                inventore veritatis architecto beatae
+                Implemented on-page and off-page SEO tactics that led to a 25% increase in organic search traffic and a rise in search engine rankings.
               </p>
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="#contact">
                 <a className="details-btn">
-                  <i className="far fa-arrow-right" />
+                  <FontAwesomeIcon icon={faArrowRight} />
                 </a>
               </Link>
             </div>
@@ -77,19 +80,18 @@ const Projects = () => {
           </div>
           <div className="col-xl-5 col-lg-6">
             <div className="project-content wow fadeInRight delay-0-2s">
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Web Development</span>
               <h2>
                 <Link legacyBehavior href="project-details">
-                  Brand Identity and Motion Design
+                  Custom WordPress Website
                 </Link>
               </h2>
               <p>
-                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                inventore veritatis architecto beatae
+                Built a responsive and SEO-optimized WordPress website for a startup that helped increase traffic by 40% in the first month.
               </p>
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="#contact">
                 <a className="details-btn">
-                  <i className="far fa-arrow-right" />
+                  <FontAwesomeIcon icon={faArrowRight} />
                 </a>
               </Link>
             </div>
@@ -103,28 +105,27 @@ const Projects = () => {
           </div>
           <div className="col-xl-5 col-lg-6 ms-auto">
             <div className="project-content wow fadeInRight delay-0-2s">
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">Content Strategy</span>
               <h2>
                 <Link legacyBehavior href="project-details">
-                  Mobile Application Development
+                  Blogging and SEO Content Creation
                 </Link>
               </h2>
               <p>
-                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                inventore veritatis architecto beatae
+                Created a content strategy for a tech blog that boosted page views by 60% and improved time on site through engaging, SEO-driven articles.
               </p>
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="#contact">
                 <a className="details-btn">
-                  <i className="far fa-arrow-right" />
+                  <FontAwesomeIcon icon={faArrowRight} />
                 </a>
               </Link>
             </div>
           </div>
         </div>
         <div className="project-btn text-center wow fadeInUp delay-0-2s">
-          <Link legacyBehavior href="/projects">
+          <Link legacyBehavior href="#contact">
             <a className="theme-btn">
-              View More Projects <i className="far fa-angle-right" />
+              Contact Us 
             </a>
           </Link>
         </div>
@@ -144,7 +145,10 @@ const Projects = () => {
     </section>
   );
 };
+
 export default Projects;
+
+
 
 export const Projects2 = () => {
   return (
@@ -171,7 +175,7 @@ export const Projects2 = () => {
                   src="assets/images/projects/project-two1.jpg"
                   alt="Project"
                 />
-                <Link legacyBehavior href="/project-details">
+                <Link legacyBehavior href="#contact">
                   <a className="hover-box">
                     <span>View More</span>
                     <i className="far fa-arrow-up" />
@@ -180,7 +184,7 @@ export const Projects2 = () => {
               </div>
               <div className="content">
                 <h5 className="title">
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="#contact">
                     <a>Digital Marketing</a>
                   </Link>
                 </h5>
@@ -195,7 +199,7 @@ export const Projects2 = () => {
                   src="assets/images/projects/project-two2.jpg"
                   alt="Project"
                 />
-                <Link legacyBehavior href="/project-details">
+                <Link legacyBehavior href="#contact">
                   <a className="hover-box">
                     <span>View More</span>
                     <i className="far fa-arrow-up" />
@@ -204,7 +208,7 @@ export const Projects2 = () => {
               </div>
               <div className="content">
                 <h5 className="title">
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="#contact">
                     <a>Digital Marketing</a>
                   </Link>
                 </h5>
@@ -219,7 +223,7 @@ export const Projects2 = () => {
                   src="assets/images/projects/project-two3.jpg"
                   alt="Project"
                 />
-                <Link legacyBehavior href="/project-details">
+                <Link legacyBehavior href="#contact">
                   <a className="hover-box">
                     <span>View More</span>
                     <i className="far fa-arrow-up" />
@@ -228,7 +232,7 @@ export const Projects2 = () => {
               </div>
               <div className="content">
                 <h5 className="title">
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="#contact">
                     <a>Digital Marketing</a>
                   </Link>
                 </h5>
@@ -243,7 +247,7 @@ export const Projects2 = () => {
                   src="assets/images/projects/project-two4.jpg"
                   alt="Project"
                 />
-                <Link legacyBehavior href="/project-details">
+                <Link legacyBehavior href="#contact">
                   <a className="hover-box">
                     <span>View More</span>
                     <i className="far fa-arrow-up" />
@@ -252,7 +256,7 @@ export const Projects2 = () => {
               </div>
               <div className="content">
                 <h5 className="title">
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="#contact">
                     <a>Digital Marketing</a>
                   </Link>
                 </h5>
@@ -267,7 +271,7 @@ export const Projects2 = () => {
                   src="assets/images/projects/project-two5.jpg"
                   alt="Project"
                 />
-                <Link legacyBehavior href="/project-details">
+                <Link legacyBehavior href="#contact">
                   <a className="hover-box">
                     <span>View More</span>
                     <i className="far fa-arrow-up" />
@@ -276,7 +280,7 @@ export const Projects2 = () => {
               </div>
               <div className="content">
                 <h5 className="title">
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="#contact">
                     <a>Digital Marketing</a>
                   </Link>
                 </h5>
@@ -286,7 +290,7 @@ export const Projects2 = () => {
           </div>
           <div className="col-md-6 align-self-center">
             <div className="project-details-btn mb-50">
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="#contact">
                 <a className="more-btn wow zoomIn delay-0-2s">
                   <span>More</span>
                   <i className="fal fa-arrow-up" />

@@ -95,23 +95,18 @@ export const OnePageMenu = () => {
         <a href="#home">Home</a>
       </li>
       <li>
-        <a href="#about">about</a>
+        <a href="#services">Services</a>
+          </li>
+      <li>
+        <a href="#digital-marketing">Digital Marketing</a>
+      </li>
+  
+      <li>
+        <a href="#portfolio">Projects</a>
       </li>
       <li>
-        <a href="#resume">Resume</a>
+        <a href="#about">About</a>
       </li>
-      <li>
-        <a href="#services">services</a>
-      </li>
-      <li>
-        <a href="#skills">skills</a>
-      </li>
-      {/* <li>
-        <a href="#portfolio">projects</a>
-      </li> */}
-      {/* <li>
-        <a href="#blog">blog</a>
-      </li> */}
       <li>
         <a href="#contact">Contact</a>
       </li>

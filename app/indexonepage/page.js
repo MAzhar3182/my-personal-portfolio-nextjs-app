@@ -10,6 +10,7 @@ import Services from "@/components/Services";
 import Skill from "@/components/Skill";
 import Testimonial from "@/components/Testimonial";
 import NoxfolioLayout from "@/layout/NoxfolioLayout";
+import Service from "@/components/Service";
 
 export default function HomeOnePage() {
   return (
@@ -18,7 +19,7 @@ export default function HomeOnePage() {
       <Hero />
       {/* Hero Section End */}
       {/* About Area start */}
-      <About />
+      <Service />
       {/* About Area end */}
       {/* Resume Area start */}
       <Resume />

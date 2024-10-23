@@ -43,20 +43,24 @@ const Footer1 = () => {
                 <h6 className="footer-title">Quick Link</h6>
                 <ul>
                 <li>
-                        <a href="#home">Home</a>
-                      </li>
-                      <li>
-                        <a href="#about">about</a>
-                      </li>
-                      <li>
-                        <a href="#resume">Resume</a>
-                      </li>
-                      <li>
-                        <a href="#services">services</a>
-                      </li>
-                      <li>
-                        <a href="#skills">skills</a>
-                      </li>
+        <a href="#home">Home</a>
+      </li>
+      <li>
+        <a href="#services">Services</a>
+          </li>
+      <li>
+        <a href="#digital-marketing">Digital Marketing</a>
+      </li>
+      <li>
+        <a href="#portfolio">Projects</a>
+      </li>
+      <li>
+        <a href="#about">About</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+      
                 </ul>
               </div>
               {/* <div className="footer-widget widget_newsletter wow fadeInUp delay-0-4s">
@@ -81,15 +85,12 @@ const Footer1 = () => {
                 <h6 className="footer-title">Address</h6>
                 <ul>
                   <li>
-                    <i className="far fa-map-marker-alt" /> Lahore, Punjab, Pakistan
-                  </li>
-                  <li>
                     <i className="far fa-envelope" />{" "}
-                    <a href="mailto:muhammedazhar.csfl20@gmail.com">muhammedazhar.csfl20@gmail.com</a>
+                    <a href="mailto:ahmadmujtabanaeem@gmail.com">ahmadmujtabanaeem@gmail.com</a>
                   </li>
                   <li>
                     <i className="far fa-phone" />{" "}
-                    <a href="callto:+923257847141">+923257847141</a>
+                    <a href="callto:+44-7405380735">+44-7405380735</a>
                   </li>
                 </ul>
               </div>
@@ -105,7 +106,7 @@ const Footer1 = () => {
                 <p>
                   Copyright @{date},{" "}
                   <Link legacyBehavior href="/">
-                    Muhammad Azhar
+                  Ahmad Mujtaba Naeem
                   </Link>{" "}
                   All Rights Reserved
                 </p>

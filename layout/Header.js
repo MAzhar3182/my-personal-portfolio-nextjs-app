@@ -50,8 +50,7 @@ const Header1 = ({ onePageMenu }) => {
                   </a>
                 </Link>
                 <div className="text-center me-1"> {/* You can use me-1 for smaller margin */}
-                  <h5>Muhammad Azhar</h5>
-                  <span>Software Engineer</span>
+                  <span>Ahmad Mujtaba Naeem</span>
                 </div>
               </div>
             </div>
@@ -179,13 +178,10 @@ const Header2 = ({ onePageMenu }) => {
                         <a href="#home">Home</a>
                       </li>
                       <li>
-                        <a href="#about">about</a>
+                        <a href="#services">Services</a>
                       </li>
                       <li>
                         <a href="#resume">Resume</a>
-                      </li>
-                      <li>
-                        <a href="#services">services</a>
                       </li>
                       <li>
                         <a href="#skills">skills</a>
