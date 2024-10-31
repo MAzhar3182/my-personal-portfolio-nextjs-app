@@ -95,8 +95,8 @@ export const OnePageMenu = () => {
         <a href="#home">Home</a>
       </li>
       <li>
-        <a href="#about">about</a>
-      </li>
+         <a href="#certificate">certificate</a>
+       </li>
       <li>
         <a href="#resume">Resume</a>
       </li>
@@ -105,6 +105,9 @@ export const OnePageMenu = () => {
       </li>
       <li>
         <a href="#skills">skills</a>
+      </li>
+      <li>
+        <a href="#about">about</a>
       </li>
       {/* <li>
         <a href="#portfolio">projects</a>

@@ -7,11 +7,13 @@ import Pricing from "@/components/Pricing";
 import Projects from "@/components/Projects";
 import Resume from "@/components/Resume";
 import Services from "@/components/Services";
+import Certificate from "@/components/Certificate";
 import Skill from "@/components/Skill";
 import Testimonial from "@/components/Testimonial";
 import NoxfolioLayout from "@/layout/NoxfolioLayout";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+
 export default function Home() {
   return (
     <>
@@ -19,11 +21,12 @@ export default function Home() {
       {/* Hero Section Start */}
       <Hero />
       {/* Hero Section End */}
-      {/* About Area start */}
+      {/* Certificate Area start */}
+            {/* Certificate Area end */}
       <About />
-      {/* About Area end */}
       {/* Resume Area start */}
       <Resume />
+      <Certificate />
       {/* Resume Area end */}
       {/* Services Area start */}
       <Services />

@@ -179,6 +179,9 @@ const Header2 = ({ onePageMenu }) => {
                         <a href="#home">Home</a>
                       </li>
                       <li>
+                        <a href="#certificate">My Certificates</a>
+                      </li>
+                      <li>
                         <a href="#about">about</a>
                       </li>
                       <li>

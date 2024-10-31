@@ -9,7 +9,6 @@ import "@css/nice-select.min.css";
 import "@css/slick.min.css";
 import "@css/style.css";
 import "./globals.css";
-
 /** google fonts */
 const inter = Inter({
   subsets: ["latin"],
